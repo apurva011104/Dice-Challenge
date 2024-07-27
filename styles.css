@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+}
+
+#main-view{
+    background-color: #405D72;
+}
+
+.container-fluid{
+    height: 100%;
+    padding: 3% 16% 7%;
+
+}
+
+h1{
+    font-family: "Love Ya Like A Sister", cursive;
+    font-size: 6rem;
+}
+
+.players-and-dice{
+    display: grid;
+    padding: 4% 4%;
+    margin: 2rem 0 0 0;
+    text-align: center;
+}
+
+
+.players{
+    display: inline-block;
+    margin: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: "Rosarivo", cursive;
+    font-weight: 500;
+}
+
+.players:hover{
+    color: white;
+}
+
+
+.btn-custom{
+    color: #FF7777;
+    border: solid;
+    border-color: #FF7777;
+}
+
+.btn-custom:hover{
+    color: white;
+    background-color: #FF7777;
+}
+
+img{
+    width: 14rem;
+}
+
+
+
+@media screen and (max-width: 772px){
+    .container-fluid{
+        padding: 15% 7%;
+    }
+    h1{
+        font-size: 5.5rem;
+    }
+    img{
+        width: 10rem;
+    }
+    .players{
+        font-size: 1.25rem;
+    }
+}
